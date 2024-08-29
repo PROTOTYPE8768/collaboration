@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+body{
+    height: 100rem;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    
+    height: 5rem;
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        
+        .header__nav__wrapper{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            padding: 1rem;
+            align-items: center;            
+            gap: 2rem;
+            
+            
+            img{
+                max-width: 6.5rem;
+            }
+            
+            .header__nav{
+                ul{
+                    margin-left: 2rem;
+                    display: flex;
+                    gap: 2.5rem;
+                }
+            }
+            .call__anytime{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                width: 12.5rem;
+                height: 5rem;
+                background: #fcb222;
+                cursor: pointer;
+                .call_content{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                    gap: 1rem;
+                    color: white;
+                    .icon_text{
+                        text-align: start;
+                    }
+                    
+                }
+                
+            }
+        }
+    }
+    
+}
+
+.banner{
+    img{
+        display: block;
+        object-fit: cover;
+        width: 100%;
+        height: 40rem;
+    }
+}
+.balot{
+    background: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+
+    width: 100%;
+}
+.balot_ngbalot {
+    display: block;
+    flex-direction: column;
+    margin-right: 25rem;
+    position: absolute;
+    margin-bottom: 40rem;
+    
+}
+.balot_ngbalot h1,p,span {
+    color: white;
+}
+
+.balot_ngbalot span{
+    padding: 1.5rem;
+    background: rgb(240, 192, 16);
+    margin-top: 1rem;
+}
+
+.balot_ngbalot h1{
+    font-size: 80px;
+   
+}
+.pcontainer{
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+.grid_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        flex-direction: row;
+        margin: 6rem;
+        gap: 2rem;
+    }
+}
+
+.grid_text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    .greedy{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 16.5rem;
+        position: absolute;
+        margin-top: -35rem;
+        img{
+            max-width: 6.5rem;
+            cursor: pointer;
+        }
+    }
+}
+
+.types{
+    &:hover{
+        img{
+            opacity: 0;
+        }
+        p{
+            opacity: 0;
+        }
+    }
+}
+
+.welcome_content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    background: url(/dist/img/);
+    .welcome_text{
+        width: 35rem;
+        h4{
+            color: #767676;
+        }
+        h1{
+            font-size: 40px;
+        }
+    }
+   
+}
+
+.fontawesome{
+    display: flex;
+    gap: 1rem;
+}
+
+.top{
+    display: flex;
+    width: 100%;
+    background: #232323;
+    
+}
+.pogiko{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+.home_click{
+    display: none;
+    &.open{
+        display: flex;
+        margin-left: 27rem;
+        width: 14.5rem;
+        height: 15rem;
+        background: white;
+        position: absolute; 
+    
+    }
+}
+
+.welcome_container{
+    display: flex;
+    flex-direction: column;
+
+    color: black;
+    .welcome_btn{
+        display: flex;
+        color: black;
+
+    }
+    .welcome_percent{
+        display: flex;
+        flex-direction: column;
+        color: black;
+
+    }
+}
