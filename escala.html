@@ -4,42 +4,71 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-<<<<<<< refs/remotes/origin/escala
-</head>
-<body>
-    
-=======
-    <link rel="stylesheet" href="/dist/scss/main.css">
+    <link rel="stylesheet" href="./dist/scss/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/b9d5a67e0c.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <section class="top">1</section>
+    <section class="top">
+        <div class="socmed" style="display: flex; flex-direction: row; justify-content: center; align-items: center; gap: 2rem;">
+            <div class="socmed_logos">
+                <i class="fa-brands fa-x-twitter"></i>
+                <i class="fa-brands fa-square-facebook"></i>
+                <i class="fa-brands fa-pinterest-p"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+            <div class="welcome_to" style="display: flex;">
+                <p style="color: #b7b7b7;">Welcome to Construction Company.</p>
+                <p style="color: #fcb222;">Get Free Quote</p>
+            </div>
+        </div>
+
+        <div class="top_text">
+            <div class="ewanko">
+                <i style="font-size: 12px; color: #fcb222;" class="fa-solid fa-envelope"></i>
+                <p style="color: #b7b7b7;" >needhelp@company.com</p>
+
+            </div>
+            <div class="ewanko">
+                <i style="font-size: 12px; color: #fcb222;" class="fa-solid fa-clock"></i>
+                <p style="color: #b7b7b7;" >Mon - Sat 8:00 - 6:30, Sunday - CLOSED</p>
+            </div>
+
+        </div>
+    </section>
+    <style>
+
+
+    </style>
     <header class="header">
         
         <div class="container">
             <div class="header__nav__wrapper">
                 <div><img src="./dist/img/logo@2x.png" alt=""></div>
                 <div class="header__nav">
-                    <ul>
-                        <li><a  class="dipindot" href="javascript:void(0);">home</a></li>
-                        <li>Pages</li>
-                        <li>Services</li>
-                        <li>Projects</li>
-                        <li>News</li>
-                        <li>Contact</li>
+                    <ul >
+                        <li><a class="dipindot" href="javascript:void(0);">Home <i class="fa-solid fa-angle-down"></i></a></li>
+                        <li><a href="javascript:void(0);">Pages </a><i class="fa-solid fa-angle-down"></i></li>
+                        <li><a href="">Services</a></li>
+                        <li><a href="javascript:void(0);">Projects</a> <i class="fa-solid fa-angle-down"></i></li>
+                        <li><a href="">News</a> <i class="fa-solid fa-angle-down"></i></li>
+                        <li><a href="">Contact</a></li>
+
                     </ul>
                 </div>
 
                 <div class="fontawesome">
-                    <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
-                    <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                    <a  href=""><i style="color: #171717;" class="fa-solid fa-magnifying-glass"></i></a>
+                    <a href=""><i style="color: #171717;" class="fa-solid fa-cart-shopping"></i></a>
                 </div>
 
 
                 <div class="call__anytime">
                     <div class="call_content">
                         <div class="icon">
-                            <i class="fa-solid fa-phone"></i>
+                            <i style="color: white;" class="fa-solid fa-phone"></i>
                         </div>
                         <div class="icon_text">
                             <p>Call Anytime</p>
@@ -51,7 +80,7 @@
         </div>
     </header>
 
-    <div class="home_click">
+    <div style="z-index: 2;" class="home_click">
         <div class="pogiko">
             <ul>
                 <li><a href="">home</a></li>
@@ -61,20 +90,23 @@
             </ul>
         </div>
     </div>
+    
 
+
+    
 
     <div class="banner">
         <img src="./dist/img/slider-1-1 - Copy.webp" alt="">
         <div class="balot">
-            <div class="balot_ngbalot">
-                <h1>Providing Quality</h1>
+            <div  class="balot_ngbalot">
+                <h1>Providing <span style="background: none; color: #fcb222; padding: 0;">Quality</span></h1>
                 <h1>Building Solutions</h1>
-                <div class="pcontainer">
-                    <p>Engineering techniques & implimentation process</p>
-                    <p>We're full service construction company</p>
-                    <p>offering complete integrated package</p>
+                <div style="display: flex; flex-direction: column; gap: 1rem;"  class="pcontainer">
+                    <h3 style="color: white;" >Engineering techniques & implimentation process</h3>
+                    <h3 style="color: white;" >We're full service construction company</h3>
+                    <h3 style="color: white;" >offering complete integrated package</h3>
                 </div>
-                <div><span>discover more</span></div>
+                <div><span style="display: block;background: #fcb222; font-weight: 800; width: 11rem; justify-content: center;text-align: center;">Discover More</span></div>
             </div>
         </div>
     </div>
@@ -169,7 +201,6 @@
         </div>
     </section>
 
-    <script src="/components/js/home.js"></script>
->>>>>>> local
+    <script src="./dist/js/home.js"></script>
 </body>
 </html>
